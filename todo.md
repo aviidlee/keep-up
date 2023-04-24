@@ -1,0 +1,9 @@
+- Use a config file/config via CLI to take as input:
+  - List of RSS feeds 
+  - List of web URLs
+  - List of files 
+- Output the summary text
+  - With pretty HTML formatting
+  - In a human-readable and computer-friendly format (e.g. JSON)
+- Allow schedules to be set up 
+  - for automatic delivery as a daily email
