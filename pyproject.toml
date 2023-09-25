@@ -4,7 +4,6 @@ version = "0.1.0"
 description = "Use LLMs to curate and summarize blogs and news sites."
 authors = ["Alex Lee (aviidlee) <alex.lee@posteo.net>"]
 readme = "README.md"
-packages = [{include = "keep_up"}]
 
 [tool.poetry.dependencies]
 python = "3.10.11"
