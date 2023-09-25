@@ -1,4 +1,4 @@
-import log_config
+import config.log_config as log_config
 from summarizer import Summarizer
 import typer
 
@@ -35,4 +35,4 @@ def summarize(text: str = None, min_length: int = 30, max_length: int = 200, rea
 
 
 if __name__ == "__main__":
-    app()
+    typer.run(summarize)
