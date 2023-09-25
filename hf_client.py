@@ -18,5 +18,5 @@ def get_inference_endpoint(repo_id: HfModel) -> InferenceClient:
         raise ValueError(f"Could not get inference endpoint client because token is not set in "
                          f"environments variable {HF_API_TOKEN_KEY})")
 
-    return InferenceClient(token=api_token)
+    return InferenceClient(token=api_token, model=repo_id.value)
 

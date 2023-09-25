@@ -2,8 +2,6 @@ from hf_client import get_inference_endpoint
 from hf_model import HfModel
 import os 
 
-SUMMARY_TEXT_KEY = "summary_text"
-
 
 class Summarizer:
     def __init__(self, model: HfModel = HfModel.BART_LARGE_CNN):
