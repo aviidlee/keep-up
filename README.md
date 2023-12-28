@@ -5,3 +5,7 @@ I'm sure this has been done somewhere before. This is more an exercise in learni
 
 ## Installation 
 Install with `make install`
+
+## Running 
+- Obtain a hugging face API token and set it as the environment variable `HF_API_TOKEN`
+- Run with `python3 main.py`
