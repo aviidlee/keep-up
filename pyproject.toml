@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "keep-up"
+name = "keepup"
 version = "0.1.0"
 description = "Use LLMs to curate and summarize blogs and news sites."
 authors = ["Alex Lee (aviidlee) <alex.lee@posteo.net>"]
